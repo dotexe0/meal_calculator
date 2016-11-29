@@ -92,7 +92,6 @@ bill.addDiner(pat)
 Bill.prototype.breakdown = function () {
 console.log("Total Bill: $" + bill.totalBill());
 console.log("Total Tip: $" + bill.totalTip());
-
 console.log(daniel.name + " pays: $" + (daniel.total() + daniel.tax(taxRate)).toFixed(2) + " for the meal including tax, plus $" + daniel.tip(tipRate).toFixed(2) + " in tips.");
 console.log(zubair.name + " pays: $" + (zubair.total() + zubair.tax(taxRate)).toFixed(2) + " for the meal including tax, plus $" + zubair.tip(tipRate).toFixed(2) + " in tips.");
 console.log(pat.name + " pays: $" + (pat.total() + pat.tax(taxRate)).toFixed(2) + " for the meal including tax, plus $" + pat.tip(tipRate).toFixed(2) + " in tips.");
